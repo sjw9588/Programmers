@@ -20,10 +20,10 @@ class Solution {
 						}
 					}
 					board[j][moves[i]-1] = 0;
+					break;
 				}
 			}
 		}
-
 		return answer;
 	}
 }
